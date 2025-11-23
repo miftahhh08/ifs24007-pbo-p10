@@ -22,7 +22,7 @@ spring.devtools.livereload.enabled=true
 spring.devtools.livereload.port=35729
 
 # Exclude paths that don't need restart
-spring.devtools.restart.exclude=static/**,public/**,templates/**
+spring.devtools.restart.exclude=static/,public/,templates/**
 
 # Logging Level
 spring.main.banner-mode=console
